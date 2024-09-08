@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/images/RDT_LOGO.png" width="60%" alt="Missouri S&T Rocket Design Team">
+    <img src="assetsAndImages/RDT_LOGO.png" width="60%" alt="Missouri S&T Rocket Design Team">
 </p>
 
 <p align="center"><sup><em>*This repo is intended for educational purposes only*</em></sup></p>
