@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "W25q128JVSIQ")(type "KiCad")(uri "C:/Users/Raksh/OneDrive/Desktop/Rocket_Repos/LEC/LEC_Attempts/Liquid-Engine-Controller/hardware/W25q128JVSIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "W25q128")(type "KiCad")(uri "${KIPRJMOD}/W25q128.kicad_sym")(options "")(descr ""))
+)
