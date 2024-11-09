@@ -326,6 +326,38 @@
     [
       "c984ce56-a2b4-4cda-8793-153280694173",
       ""
+    ],
+    [
+      "0e5671ea-d349-45f8-bf6b-96c457441257",
+      "lowPassFilter"
+    ],
+    [
+      "b3908ab3-8a86-4ea1-8a47-06311c66a2dc",
+      "lowPassFilter1"
+    ],
+    [
+      "edb21abb-57d6-4378-9bd0-3d22c6596398",
+      "lowPassFilter2"
+    ],
+    [
+      "d03f750c-ce52-452b-8827-0284f819b3b1",
+      "lowPassFilter3"
+    ],
+    [
+      "890ee977-917f-4ddd-ab3f-2f566f6370dc",
+      "lowPassFilter4"
+    ],
+    [
+      "86853feb-0b35-487f-accb-7d2f8f5cb993",
+      "lowPassFilter5"
+    ],
+    [
+      "a4e055c6-05c5-4c3b-9b4a-cb905030fc01",
+      "lowPassFilter6"
+    ],
+    [
+      "38faafce-a9fd-44cb-ac78-8ab2a8d54629",
+      "ADC_Power_Circuit"
     ]
   ],
   "text_variables": {}
