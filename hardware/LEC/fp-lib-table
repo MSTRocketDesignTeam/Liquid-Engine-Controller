@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "L78L33ACZ")(type "KiCad")(uri "${KIPRJMOD}/footprints/L78L33ACZ.pretty")(options "")(descr ""))
+)

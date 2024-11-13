@@ -222,7 +222,7 @@
     (uuid d51ad288-4d3e-4b77-a14f-c144c5b279ca)
   )
 
-  (text "Cutoff Frequency: ~318Hz. At 318Hz, amplitude is ~70%"
+  (text "Cutoff Frequency: ~318Hz. At 318Hz, amplitude is ~70%\nVoltage divider is to map the 0-5V output from the pressure\ntransducers to a 0-2.5V range, which is more acceptable for the ADC."
     (at 88.9 45.72 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ef1c5092-b9c6-4dc4-925b-7d841f733dfc)
@@ -262,6 +262,24 @@
         (path "/c984ce56-a2b4-4cda-8793-153280694173/0e5671ea-d349-45f8-bf6b-96c457441257"
           (reference "R3") (unit 1)
         )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/43e0f5e3-3f54-4d98-bbaa-462e93d257d8"
+          (reference "R4") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/c8421286-eac1-4319-8828-3ae62d6cf309"
+          (reference "R6") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/7d537dc8-0a6f-4081-8b44-5517c0a70636"
+          (reference "R8") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/22bc0796-a1d2-4bdd-adaf-c9789f8654bb"
+          (reference "R10") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/ddbe9da2-a7af-420b-9885-57c1b56df261"
+          (reference "R12") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/f0feb978-fa39-4938-b0b7-0afa0feb56b9"
+          (reference "R14") (unit 1)
+        )
       )
     )
   )
@@ -290,6 +308,24 @@
       (project "LEC"
         (path "/c984ce56-a2b4-4cda-8793-153280694173/0e5671ea-d349-45f8-bf6b-96c457441257"
           (reference "R2") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/43e0f5e3-3f54-4d98-bbaa-462e93d257d8"
+          (reference "R1") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/c8421286-eac1-4319-8828-3ae62d6cf309"
+          (reference "R5") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/7d537dc8-0a6f-4081-8b44-5517c0a70636"
+          (reference "R7") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/22bc0796-a1d2-4bdd-adaf-c9789f8654bb"
+          (reference "R9") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/ddbe9da2-a7af-420b-9885-57c1b56df261"
+          (reference "R11") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/f0feb978-fa39-4938-b0b7-0afa0feb56b9"
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -320,14 +356,32 @@
         (path "/c984ce56-a2b4-4cda-8793-153280694173/0e5671ea-d349-45f8-bf6b-96c457441257"
           (reference "C1") (unit 1)
         )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/43e0f5e3-3f54-4d98-bbaa-462e93d257d8"
+          (reference "C4") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/c8421286-eac1-4319-8828-3ae62d6cf309"
+          (reference "C5") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/7d537dc8-0a6f-4081-8b44-5517c0a70636"
+          (reference "C6") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/22bc0796-a1d2-4bdd-adaf-c9789f8654bb"
+          (reference "C7") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/ddbe9da2-a7af-420b-9885-57c1b56df261"
+          (reference "C8") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/f0feb978-fa39-4938-b0b7-0afa0feb56b9"
+          (reference "C9") (unit 1)
+        )
       )
     )
   )
 
   (symbol (lib_id "power:GND") (at 53.34 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cced3336-187b-4a47-a516-1c110d58274a)
-    (property "Reference" "#PWR016" (at 53.34 80.01 0)
+    (uuid b042d71f-8d5b-4904-b21e-b64945019d9b)
+    (property "Reference" "#PWR049" (at 53.34 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 78.74 0)
@@ -339,11 +393,29 @@
     (property "Datasheet" "" (at 53.34 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00ed2f5e-4d46-4b6b-9889-e478be421958))
+    (pin "1" (uuid bc0064b6-47a3-46e5-95d8-0602a14948a4))
     (instances
       (project "LEC"
         (path "/c984ce56-a2b4-4cda-8793-153280694173/0e5671ea-d349-45f8-bf6b-96c457441257"
+          (reference "#PWR049") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/43e0f5e3-3f54-4d98-bbaa-462e93d257d8"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/c8421286-eac1-4319-8828-3ae62d6cf309"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/7d537dc8-0a6f-4081-8b44-5517c0a70636"
           (reference "#PWR016") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/22bc0796-a1d2-4bdd-adaf-c9789f8654bb"
+          (reference "#PWR033") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/ddbe9da2-a7af-420b-9885-57c1b56df261"
+          (reference "#PWR021") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/f0feb978-fa39-4938-b0b7-0afa0feb56b9"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -369,6 +441,24 @@
       (project "LEC"
         (path "/c984ce56-a2b4-4cda-8793-153280694173/0e5671ea-d349-45f8-bf6b-96c457441257"
           (reference "#PWR019") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/43e0f5e3-3f54-4d98-bbaa-462e93d257d8"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/c8421286-eac1-4319-8828-3ae62d6cf309"
+          (reference "#PWR029") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/7d537dc8-0a6f-4081-8b44-5517c0a70636"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/22bc0796-a1d2-4bdd-adaf-c9789f8654bb"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/ddbe9da2-a7af-420b-9885-57c1b56df261"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/c984ce56-a2b4-4cda-8793-153280694173/f0feb978-fa39-4938-b0b7-0afa0feb56b9"
+          (reference "#PWR037") (unit 1)
         )
       )
     )
