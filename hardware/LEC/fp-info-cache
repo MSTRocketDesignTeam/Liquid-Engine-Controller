@@ -1,4 +1,4 @@
-22349993635765599
+22367311074499861
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61221,6 +61221,13 @@ L78L33ACZ
 0
 3
 3
+L7805CV
+TO-220_STM
+
+L7805CV 
+0
+3
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -62355,6 +62362,41 @@ Yellow 5381 Series LED
 0
 2
 2
+M8Connector
+TENSILITY_54-00278
+
+
+0
+4
+4
+MC7809CTG
+TO-220AB_ONS
+
+MC7809CTG 
+0
+3
+3
+MCP3564R/T
+TSSOP20_ST_MCH
+
+MCP3564RT-E/ST 
+0
+20
+20
+MCP3564R/T
+TSSOP20_ST_MCH-L
+
+MCP3564RT-E/ST 
+0
+20
+20
+MCP3564R/T
+TSSOP20_ST_MCH-M
+
+MCP3564RT-E/ST 
+0
+20
+20
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -82977,6 +83019,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RPiPico
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -92245,3 +92294,24 @@ varistor
 0
 2
 2
+W25Q128JVSIQ
+SOIC_128JVSIQ_WIN
+
+W25Q128JVSIQ 
+0
+8
+8
+W25Q128JVSIQ
+SOIC_128JVSIQ_WIN-L
+
+W25Q128JVSIQ 
+0
+8
+8
+W25Q128JVSIQ
+SOIC_128JVSIQ_WIN-M
+
+W25Q128JVSIQ 
+0
+8
+8
