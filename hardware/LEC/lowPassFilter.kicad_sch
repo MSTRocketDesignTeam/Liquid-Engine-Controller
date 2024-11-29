@@ -228,11 +228,11 @@
     (uuid ef1c5092-b9c6-4dc4-925b-7d841f733dfc)
   )
 
-  (hierarchical_label "V_{out}" (shape input) (at 90.17 58.42 0) (fields_autoplaced)
+  (hierarchical_label "Sig_{out}" (shape input) (at 90.17 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0c94fb82-7b6e-4c93-8aa0-aead3ee3e7b6)
   )
-  (hierarchical_label "V_{in}" (shape input) (at 53.34 41.91 0) (fields_autoplaced)
+  (hierarchical_label "Sig_{in}" (shape input) (at 53.34 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ad920e1-856e-4eaa-9cb2-24f085526f3b)
   )
