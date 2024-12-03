@@ -7,4 +7,5 @@
   (lib (name "L7805CV")(type "KiCad")(uri "${KIPRJMOD}/footprints/L7805CV.pretty")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/footprints/W25Q128JVSIQ.pretty")(options "")(descr ""))
   (lib (name "MC7809CTG")(type "KiCad")(uri "${KIPRJMOD}/footprints/MC7809CTG.pretty")(options "")(descr ""))
+  (lib (name "RDTLogo")(type "KiCad")(uri "${KIPRJMOD}/footprints/RDT_Logo.pretty")(options "")(descr ""))
 )
