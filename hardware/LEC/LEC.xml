@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Raksh\OneDrive\Desktop\Rocket_Repos\LEC\LEC_Attempts\Liquid-Engine-Controller\hardware\LEC\LEC.kicad_sch</source>
+    <date>12/12/2024 8:57:48 AM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Liquid Engine Controller</title>
+        <company>Missouri S&amp;T Rocket Design Team</company>
+        <rev>A</rev>
+        <date/>
+        <source>LEC.kicad_sch</source>
+        <comment number="1" value="Designer: Rakshak Sudhakaran"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/lowPassFilter/" tstamps="/0e5671ea-d349-45f8-bf6b-96c457441257/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/lowPassFilter1/" tstamps="/43e0f5e3-3f54-4d98-bbaa-462e93d257d8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/lowPassFilter2/" tstamps="/c8421286-eac1-4319-8828-3ae62d6cf309/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/lowPassFilter3/" tstamps="/7d537dc8-0a6f-4081-8b44-5517c0a70636/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/lowPassFilter4/" tstamps="/22bc0796-a1d2-4bdd-adaf-c9789f8654bb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/lowPassFilter5/" tstamps="/ddbe9da2-a7af-420b-9885-57c1b56df261/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/lowPassFilter6/" tstamps="/f0feb978-fa39-4938-b0b7-0afa0feb56b9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lowPassFilter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ADC_Power_Circuit.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35c1cdbb-93cc-4b0e-b703-9f1d70c8de09</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fec569d-44c0-4e06-be37-08be3e109b9f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>551cdd6a-a11a-49d8-b820-d0766a4234f6</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17573362-87ab-4d3a-ae3f-70c734be93bd</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a1b1503-c84e-4227-85e4-6e3835a8c1c8</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c815e8bc-4a8a-40fc-ac2b-870f09e9f29b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35b634af-5468-4f2d-b551-260d57daff91</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a78f3d8-b22c-48f6-aa86-52f0cbfe7285</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa619abf-9a8c-49c1-85f9-e51dd74fc271</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H103JA01-01.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a29c86f1-1075-43a8-b4c8-3e8144cab5a0</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be36409e-be15-4b99-8e7c-50d563dc1303</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12afb05c-69a3-4e10-be81-67fd680bb83f</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H103JA01-01.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca421591-0e72-4e1d-a806-6e2e505b457c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5817</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N5817-E3-73/2139978</field>
+      </fields>
+      <libsource lib="Diode" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N5817-E3-73/2139978"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>584eb6a0-e61d-4360-b845-3524a452985e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58cf9059-ebc1-4f3f-87e2-418264dab249</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b71a7f-18ba-4383-833c-797a0ac486a9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59751725-d595-496c-8745-395e5faf8a25</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>774aec37-c3dc-4c42-84cc-ddd71b44d606</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>126eacd7-cd29-4daa-9c73-2d72905d3477</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c6c9f11-c0f1-4830-8b82-c09bdca86e08</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bea7790-4b0e-4750-a14b-047501d32978</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9c14e6c-93b6-46a7-8891-497a051300b4</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e37746ec-6c9e-4985-a68d-2d159db4a099</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5208a76f-fd94-434e-8337-47920f5e7cb8</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f667a9f-7400-4301-b12e-e75558a55bb7</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2073b0e-badd-46c5-8e40-5576fe18aecf</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>617bd32f-36ba-4241-9841-e74f4d289f82</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>54-00278</value>
+      <footprint>M8Connector:TENSILITY_54-00278</footprint>
+      <datasheet>https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00278.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA</field>
+        <field name="MANUFACTURER">Tensility</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="4_Pin_M8_Socket_Female" part="54-00278" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="20.2 mm"/>
+      <property name="MANUFACTURER" value="Tensility"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/tensility-international-corp/54-00278/16604875?s=N4IgTCBcDaIKwBYC0AGFYDsAOEBdAvkA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30a555cb-e011-4ccf-8c14-07e6791208ec</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19c97d11-63e7-4a52-9803-1bdd9f589161</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d2c1767-d80a-4132-8fb5-43ccf20b3042</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Pico</value>
+      <footprint>RPiPico:RPi_Pico_SMD_TH</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/raspberry-pi/SC0917/16608257</field>
+      </fields>
+      <libsource lib="RaspberryPiPico" part="Pico" description=""/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/raspberry-pi/SC0917/16608257"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14ebd2c6-279d-49c3-a8bf-0d079d3a99ae</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>L7805</value>
+      <footprint>L7805CV:TO-220_STM</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84e73861-fa05-4796-abe9-3b2221fc3822</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MC7809CTG</value>
+      <footprint>MC7809CTG:TO-220AB_ONS</footprint>
+      <datasheet>MC7809CTG</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/onsemi/MC7809CTG/1481254</field>
+      </fields>
+      <libsource lib="MC7809CTG" part="MC7809CTG" description=""/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/onsemi/MC7809CTG/1481254"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_keywords" value="MC7809CTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e1138ab-dd43-4254-96f0-00dbdd7317f1</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>W25Q128JVSIQ</value>
+      <footprint>W25Q128JVSIQ:SOIC_128JVSIQ_WIN</footprint>
+      <datasheet>https://www.winbond.com/resource-files/W25Q128JV%20RevI%2008232021%20Plus.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943</field>
+      </fields>
+      <libsource lib="W25Q128JVSIQ" part="W25Q128JVSIQ" description=""/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_keywords" value="W25Q128JVSIQ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29076f9c-0c51-4279-9bcf-21c73c0a58f2</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31855KASA/2591564</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31855KASA/2591564"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="ki_keywords" value="Cold Junction Termocouple Interface SPI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6bbed65-53e4-4e21-ac18-cc4f5838a054</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31855KASA/2591564</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31855KASA/2591564"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_description" value="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="ki_keywords" value="Cold Junction Termocouple Interface SPI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c67b3f3-9723-4424-a0cd-3fa1ed732a15</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>MCP3564RT-E/ST</value>
+      <footprint>MCP3564R/T:TSSOP20_ST_MCH</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP3561_2_4R-Data-Sheet-DS200006391C.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/microchip-technology/MCP3564RT-E-ST/12807301?s=N4IgTCBcDaILIGEAKBmArANgCwCUAqAtAKID0AyniALoC%2BQA</field>
+      </fields>
+      <libsource lib="MCP3564" part="MCP3564RT-E_ST" description=""/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP3564RT-E-ST/12807301?s=N4IgTCBcDaILIGEAKBmArANgCwCUAqAtAKID0AyniALoC%2BQA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LEC.kicad_sch"/>
+      <property name="ki_keywords" value="MCP3564RT-E/ST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a90b78d8-9bbd-47db-a974-6074ffd18b3c</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter/" tstamps="/0e5671ea-d349-45f8-bf6b-96c457441257/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter/" tstamps="/0e5671ea-d349-45f8-bf6b-96c457441257/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter/" tstamps="/0e5671ea-d349-45f8-bf6b-96c457441257/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter1"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter1/" tstamps="/43e0f5e3-3f54-4d98-bbaa-462e93d257d8/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter1"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter1/" tstamps="/43e0f5e3-3f54-4d98-bbaa-462e93d257d8/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter1"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter1/" tstamps="/43e0f5e3-3f54-4d98-bbaa-462e93d257d8/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter2"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter2/" tstamps="/c8421286-eac1-4319-8828-3ae62d6cf309/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter2"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter2/" tstamps="/c8421286-eac1-4319-8828-3ae62d6cf309/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter2"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter2/" tstamps="/c8421286-eac1-4319-8828-3ae62d6cf309/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter3"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter3/" tstamps="/7d537dc8-0a6f-4081-8b44-5517c0a70636/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter3"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter3/" tstamps="/7d537dc8-0a6f-4081-8b44-5517c0a70636/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter3"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter3/" tstamps="/7d537dc8-0a6f-4081-8b44-5517c0a70636/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter4"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter4/" tstamps="/22bc0796-a1d2-4bdd-adaf-c9789f8654bb/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter4"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter4/" tstamps="/22bc0796-a1d2-4bdd-adaf-c9789f8654bb/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter4"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter4/" tstamps="/22bc0796-a1d2-4bdd-adaf-c9789f8654bb/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter5"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter5/" tstamps="/ddbe9da2-a7af-420b-9885-57c1b56df261/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter5"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter5/" tstamps="/ddbe9da2-a7af-420b-9885-57c1b56df261/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter5"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter5/" tstamps="/ddbe9da2-a7af-420b-9885-57c1b56df261/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="lowPassFilter6"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/lowPassFilter6/" tstamps="/f0feb978-fa39-4938-b0b7-0afa0feb56b9/"/>
+      <tstamps>a4dc59fd-a937-4eef-b639-300f8b89166c</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter6"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter6/" tstamps="/f0feb978-fa39-4938-b0b7-0afa0feb56b9/"/>
+      <tstamps>953fc078-0fb2-44a6-8970-67608754db17</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"/>
+      <property name="Sheetname" value="lowPassFilter6"/>
+      <property name="Sheetfile" value="lowPassFilter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/lowPassFilter6/" tstamps="/f0feb978-fa39-4938-b0b7-0afa0feb56b9/"/>
+      <tstamps>43966a97-ade1-4eff-ab11-27ab19cf0875</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>0883b006-1bb3-4648-82e5-e138d44e1a49</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>6eaaa4ae-429b-4de7-9f9c-e445a4abd448</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5545/CL21A106KAYNNNE%20Spec.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>c2145010-2d7a-41c2-977a-9da27077860d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>3e3215f3-b29a-4b45-8525-ea12090aa934</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>b99bdfc6-696b-4456-a76f-9153d3c407d4</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM3195C1H104JA05D/13531811"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>76b2b67e-e4fe-44d5-aa74-2d0152b6d3d2</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>L78L33ACZ</value>
+      <footprint>L78L33ACZ:TO-92-TR_STM</footprint>
+      <datasheet>L78L33ACZ</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACZ/1038304</field>
+      </fields>
+      <libsource lib="L78L33ACZ" part="L78L33ACZ" description=""/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACZ/1038304"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_keywords" value="L78L33ACZ"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>7729dbaa-ddc9-4ee6-9454-b693cd54f91e</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>L78L33ACZ</value>
+      <footprint>L78L33ACZ:TO-92-TR_STM</footprint>
+      <datasheet>L78L33ACZ</datasheet>
+      <fields>
+        <field name="DigiKey">https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACZ/1038304</field>
+      </fields>
+      <libsource lib="L78L33ACZ" part="L78L33ACZ" description=""/>
+      <property name="DigiKey" value="https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ACZ/1038304"/>
+      <property name="Sheetname" value="ADC_Power_Circuit"/>
+      <property name="Sheetfile" value="ADC_Power_Circuit.kicad_sch"/>
+      <property name="ki_keywords" value="L78L33ACZ"/>
+      <sheetpath names="/ADC_Power_Circuit/" tstamps="/38faafce-a9fd-44cb-ac78-8ab2a8d54629/"/>
+      <tstamps>29418944-55e2-468e-839e-8e9debaac7e3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4_Pin_M8_Socket_Female" part="54-00278">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">54-00278</field>
+        <field name="Footprint">TENSILITY_54-00278</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.2 mm</field>
+        <field name="MANUFACTURER">Tensility</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5817">
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5817</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="L78L33ACZ" part="L78L33ACZ">
+      <docs>L78L33ACZ</docs>
+      <footprints>
+        <fp>TO-92-TR_STM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L78L33ACZ</field>
+        <field name="Footprint">TO-92-TR_STM</field>
+        <field name="Datasheet">L78L33ACZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="VIN" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MC7809CTG" part="MC7809CTG">
+      <docs>MC7809CTG</docs>
+      <footprints>
+        <fp>TO-220AB_ONS</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC7809CTG</field>
+        <field name="Footprint">TO-220AB_ONS</field>
+        <field name="Datasheet">MC7809CTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="input"/>
+        <pin num="2" name="GROUND" type="power_in"/>
+        <pin num="3" name="OUTPUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP3564" part="MCP3564RT-E_ST">
+      <docs>MCP3564RT-E/ST</docs>
+      <footprints>
+        <fp>TSSOP20_ST_MCH</fp>
+        <fp>TSSOP20_ST_MCH-M</fp>
+        <fp>TSSOP20_ST_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3564RT-E/ST</field>
+        <field name="Footprint">TSSOP20_ST_MCH</field>
+        <field name="Datasheet">MCP3564RT-E/ST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVDD" type="power_in"/>
+        <pin num="2" name="AGND" type="power_out"/>
+        <pin num="3" name="REFIN-" type="input"/>
+        <pin num="4" name="REFIN+/OUT" type="bidirectional"/>
+        <pin num="5" name="CH0" type="input"/>
+        <pin num="6" name="CH1" type="input"/>
+        <pin num="7" name="CH2" type="input"/>
+        <pin num="8" name="CH3" type="input"/>
+        <pin num="9" name="CH4" type="input"/>
+        <pin num="10" name="CH5" type="input"/>
+        <pin num="11" name="CH6" type="input"/>
+        <pin num="12" name="CH7" type="input"/>
+        <pin num="13" name="*CS" type="input"/>
+        <pin num="14" name="SCK" type="input"/>
+        <pin num="15" name="SDI" type="input"/>
+        <pin num="16" name="SDO" type="output"/>
+        <pin num="17" name="*IRQ/MDAT" type="output"/>
+        <pin num="18" name="MCLK" type="bidirectional"/>
+        <pin num="19" name="DGND" type="power_out"/>
+        <pin num="20" name="DVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RaspberryPiPico" part="Pico">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico</field>
+        <field name="Footprint">RPi_Pico:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="41" name="SWCLK" type="input"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="MAX31855KASA">
+      <description>Cold Junction K-type Termocouple Interface, SPI, SO8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31855KASA</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="passive"/>
+        <pin num="3" name="T+" type="passive"/>
+        <pin num="4" name="V_CC" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="SO" type="tri_state"/>
+      </pins>
+    </libpart>
+    <libpart lib="W25Q128JVSIQ" part="W25Q128JVSIQ">
+      <docs>W25Q128JVSIQ</docs>
+      <footprints>
+        <fp>SOIC_128JVSIQ_WIN</fp>
+        <fp>SOIC_128JVSIQ_WIN-M</fp>
+        <fp>SOIC_128JVSIQ_WIN-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVSIQ</field>
+        <field name="Footprint">SOIC_128JVSIQ_WIN</field>
+        <field name="Datasheet">W25Q128JVSIQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="/CS" type="unspecified"/>
+        <pin num="2" name="DO_(IO1)" type="unspecified"/>
+        <pin num="3" name="WP_(IO2)" type="unspecified"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="DI_(IO0)" type="unspecified"/>
+        <pin num="6" name="CLK" type="unspecified"/>
+        <pin num="7" name="/HOLD_or_/RESET_(IO3)" type="unspecified"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4_Pin_M8_Socket_Female">
+      <uri>C:/Users/Raksh/OneDrive/Documents/KiCad Custom Libraries/54-00278.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="L78L33ACZ">
+      <uri>C:\Users\Raksh\OneDrive\Desktop\Rocket_Repos\LEC\LEC_Attempts\Liquid-Engine-Controller\hardware\LEC/libraries/L78L33ACZ.kicad_sym</uri>
+    </library>
+    <library logical="MC7809CTG">
+      <uri>C:\Users\Raksh\OneDrive\Desktop\Rocket_Repos\LEC\LEC_Attempts\Liquid-Engine-Controller\hardware\LEC/libraries/MC7089CTG.kicad_sym</uri>
+    </library>
+    <library logical="MCP3564">
+      <uri>C:\Users\Raksh\OneDrive\Desktop\Rocket_Repos\LEC\LEC_Attempts\Liquid-Engine-Controller\hardware\LEC/libraries/MCP3564RT_E_ST.kicad_sym</uri>
+    </library>
+    <library logical="RaspberryPiPico">
+      <uri/>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
+    </library>
+    <library logical="W25Q128JVSIQ">
+      <uri>C:\Users\Raksh\OneDrive\Desktop\Rocket_Repos\LEC\LEC_Attempts\Liquid-Engine-Controller\hardware\LEC/libraries/W25Q128JVSIQ.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="WP_(IO2)" pintype="unspecified"/>
+      <node ref="U4" pin="7" pinfunction="/HOLD_or_/RESET_(IO3)" pintype="unspecified"/>
+      <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V_CC" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="V_CC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/ADC_Power_Circuit/AVDDOUT">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U15" pin="1" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="VOUT" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/ADC_Power_Circuit/DVDDOUT">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="U15" pin="20" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="VOUT" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/ADC_Power_Circuit/VIN">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="INPUT" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="VIN" pintype="unspecified"/>
+      <node ref="U8" pin="3" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/ExcIn">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="7" name="/GPIO0 (MISO)">
+      <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/GPIO1 (CS)">
+      <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/GPIO2 (SCK)">
+      <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/GPIO3 (MOSI)">
+      <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/GPIO4 (MISO)">
+      <node ref="U1" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+      <node ref="U15" pin="16" pinfunction="SDO" pintype="output"/>
+    </net>
+    <net code="12" name="/GPIO5 (CS)">
+      <node ref="U1" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="U15" pin="13" pinfunction="*CS" pintype="input"/>
+    </net>
+    <net code="13" name="/GPIO6 (SCK)">
+      <node ref="U1" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+      <node ref="U15" pin="14" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="14" name="/GPIO7 (MOSI)">
+      <node ref="U1" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+      <node ref="U15" pin="15" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="15" name="/GPIO8 (MISO)">
+      <node ref="U1" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="SO" pintype="tri_state"/>
+      <node ref="U6" pin="7" pinfunction="SO" pintype="tri_state"/>
+    </net>
+    <net code="16" name="/GPIO9 (CS)">
+      <node ref="U1" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="17" name="/GPIO10 (SCK)">
+      <node ref="U1" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="18" name="/GPIO13 (CS)">
+      <node ref="U1" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="19" name="/GPIO16 (MISO)">
+      <node ref="U1" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="DO_(IO1)" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/GPIO17 (CS)">
+      <node ref="U1" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="/CS" pintype="unspecified"/>
+    </net>
+    <net code="21" name="/GPIO18 (SCK)">
+      <node ref="U1" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="CLK" pintype="unspecified"/>
+    </net>
+    <net code="22" name="/GPIO19 (MOSI)">
+      <node ref="U1" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="DI_(IO0)" pintype="unspecified"/>
+    </net>
+    <net code="23" name="/Sig1">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/Sig2">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="/Sig3">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/Sig4">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/Sig5">
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/Sig6">
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/Sig7">
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/lowPassFilter/Sig_{out}">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U15" pin="5" pinfunction="CH0" pintype="input"/>
+    </net>
+    <net code="31" name="/lowPassFilter1/Sig_{out}">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U15" pin="6" pinfunction="CH1" pintype="input"/>
+    </net>
+    <net code="32" name="/lowPassFilter2/Sig_{out}">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U15" pin="7" pinfunction="CH2" pintype="input"/>
+    </net>
+    <net code="33" name="/lowPassFilter3/Sig_{out}">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U15" pin="8" pinfunction="CH3" pintype="input"/>
+    </net>
+    <net code="34" name="/lowPassFilter4/Sig_{out}">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U15" pin="9" pinfunction="CH4" pintype="input"/>
+    </net>
+    <net code="35" name="/lowPassFilter5/Sig_{out}">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U15" pin="10" pinfunction="CH5" pintype="input"/>
+    </net>
+    <net code="36" name="/lowPassFilter6/Sig_{out}">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U15" pin="11" pinfunction="CH6" pintype="input"/>
+    </net>
+    <net code="37" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U15" pin="19" pinfunction="DGND" pintype="power_out"/>
+      <node ref="U15" pin="2" pinfunction="AGND" pintype="power_out"/>
+      <node ref="U15" pin="3" pinfunction="REFIN-" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GROUND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="38" name="Net-(D1-A)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="39" name="Net-(D1-K)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="VSYS" pintype="power_in"/>
+    </net>
+    <net code="40" name="Net-(U1-GPIO21)">
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(U1-GPIO22)">
+      <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(U5-T+)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U5-T-)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(U6-T+)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U6-T-)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(U15-REFIN+{slash}OUT)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="U15" pin="4" pinfunction="REFIN+/OUT" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(J11-Pad4)">
+      <node ref="J11" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J12-Pad4)">
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-3V3_EN-Pad37)">
+      <node ref="U1" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-ADC_VREF-Pad35)">
+      <node ref="U1" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-GPIO11-Pad15)">
+      <node ref="U1" pin="15" pinfunction="GPIO11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-GPIO12-Pad16)">
+      <node ref="U1" pin="16" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-GPIO14-Pad19)">
+      <node ref="U1" pin="19" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-GPIO15-Pad20)">
+      <node ref="U1" pin="20" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-GPIO20-Pad26)">
+      <node ref="U1" pin="26" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-GPIO26_ADC0-Pad31)">
+      <node ref="U1" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-GPIO27_ADC1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-GPIO28_ADC2-Pad34)">
+      <node ref="U1" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-RUN-Pad30)">
+      <node ref="U1" pin="30" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-SWCLK-Pad41)">
+      <node ref="U1" pin="41" pinfunction="SWCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-SWDIO-Pad43)">
+      <node ref="U1" pin="43" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-VBUS-Pad40)">
+      <node ref="U1" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U15-*IRQ{slash}MDAT-Pad17)">
+      <node ref="U15" pin="17" pinfunction="*IRQ/MDAT" pintype="output+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U15-CH7-Pad12)">
+      <node ref="U15" pin="12" pinfunction="CH7" pintype="input+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U15-MCLK-Pad18)">
+      <node ref="U15" pin="18" pinfunction="MCLK" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
