@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XBeeModule")(type "KiCad")(uri "${KIPRJMOD}/footprints/XB3-24Z8PT-J.pretty")(options "")(descr ""))
+  (lib (name "LD1117V33C")(type "KiCad")(uri "${KIPRJMOD}/footprints/LD1117V33C.pretty")(options "")(descr ""))
+  (lib (name "M8Connector4Pin")(type "KiCad")(uri "${KIPRJMOD}/footprints/54-00278.pretty")(options "")(descr ""))
+)
