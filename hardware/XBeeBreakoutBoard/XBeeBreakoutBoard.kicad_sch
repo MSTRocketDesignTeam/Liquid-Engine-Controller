@@ -701,6 +701,9 @@
     )
   )
 
+  (junction (at 204.47 99.06) (diameter 0) (color 0 0 0 0)
+    (uuid 00b06d3c-fbdc-48b6-a4c4-08ff7e61e3fc)
+  )
   (junction (at 170.18 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 2ae9fc35-065f-455b-8db5-2c24298b4235)
   )
@@ -714,7 +717,7 @@
     (uuid f3d773cb-9fe0-41d3-abbc-361cf9e4face)
   )
 
-  (wire (pts (xy 196.85 96.52) (xy 207.01 96.52))
+  (wire (pts (xy 204.47 96.52) (xy 207.01 96.52))
     (stroke (width 0) (type default))
     (uuid 01165af3-b4e8-4250-a9c3-c64d786fbb3c)
   )
@@ -738,7 +741,7 @@
     (stroke (width 0) (type default))
     (uuid 1c8024ba-efc3-41b3-a8d9-11112bd61294)
   )
-  (wire (pts (xy 189.23 99.06) (xy 196.85 99.06))
+  (wire (pts (xy 189.23 99.06) (xy 204.47 99.06))
     (stroke (width 0) (type default))
     (uuid 222bba61-77d3-4a6b-bada-4489e68368b7)
   )
@@ -818,7 +821,7 @@
     (stroke (width 0) (type default))
     (uuid 56cd4cc6-bf07-483b-ad18-83e4a9f77409)
   )
-  (wire (pts (xy 196.85 99.06) (xy 196.85 96.52))
+  (wire (pts (xy 204.47 99.06) (xy 204.47 96.52))
     (stroke (width 0) (type default))
     (uuid 592a8c54-fa59-4b81-916c-0bc3384b0c1b)
   )
@@ -1498,7 +1501,7 @@
   )
 
   (symbol (lib_id "LD1117V33C:LD1117V33C") (at 181.61 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f1934681-9079-4dd7-862b-c448d7ca534a)
     (property "Reference" "CR1" (at 204.47 49.53 0)
       (effects (font (size 1.524 1.524)))
@@ -1512,9 +1515,9 @@
     (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" (at 181.61 59.69 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 9ba86b4c-9c88-48ac-acc5-175664d8f258))
-    (pin "2" (uuid 0a45ada6-44f1-49c5-8c04-31bc3267b6bc))
-    (pin "3" (uuid 84a41831-2cd1-409d-aa55-cbb8935996a7))
+    (pin "1" (uuid 2193f370-9dd8-46dc-83bc-b1ed2a0b4e2b))
+    (pin "2" (uuid 48c2745a-06cd-4c6f-9d9c-3c8c2b8b4621))
+    (pin "3" (uuid ab0562e5-8a9c-4c24-ae0f-3b22a0409367))
     (instances
       (project "XBeeBreakoutBoard"
         (path "/835a8a51-0f5c-4f8f-b8ce-bac0fb1c12b0"
