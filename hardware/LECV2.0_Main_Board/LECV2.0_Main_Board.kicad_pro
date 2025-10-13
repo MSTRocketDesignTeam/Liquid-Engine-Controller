@@ -412,10 +412,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -428,9 +433,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -441,8 +451,8 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LEC_RF.kicad_pro",
-    "version": 1
+    "filename": "LECV2.0_Main_Board.kicad_pro",
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -457,6 +467,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -465,7 +476,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -476,7 +487,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../LEC PCB/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -600,8 +611,12 @@
   },
   "sheets": [
     [
-      "e1c8f876-6e96-4127-b3a1-831dc1ec7ba6",
+      "a0f90a35-c5d2-4d42-94a0-727558743781",
       "Root"
+    ],
+    [
+      "5c511af3-4f24-426e-b849-3aad5d9b55cf",
+      "Buck_Converter"
     ]
   ],
   "text_variables": {}

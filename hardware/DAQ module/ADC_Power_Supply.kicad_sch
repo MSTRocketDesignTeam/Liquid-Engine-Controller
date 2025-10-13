@@ -1665,7 +1665,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c204dc3d-4e99-4283-9078-af25ed13ea54")
 		(property "Reference" "C1"
 			(at 57.15 86.36 90)

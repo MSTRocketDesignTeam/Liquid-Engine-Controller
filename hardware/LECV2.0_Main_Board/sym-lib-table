@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "INA237_Module")(type "KiCad")(uri "${KIPRJMOD}/libraries/INA237_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "SSM3K2615R_LF")(type "KiCad")(uri "${KIPRJMOD}/libraries/SSM3K2615R_LF.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit_LSM6DSOX+LIS3MDL")(type "KiCad")(uri "${KIPRJMOD}/libraries/Adafruit_LSM6DSOX+LIS3MDL.kicad_sym")(options "")(descr ""))
+  (lib (name "PiPico")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR33640ADDAR")(type "KiCad")(uri "${KIPRJMOD}/libraries/LMR33640ADDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/libraries/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
+)

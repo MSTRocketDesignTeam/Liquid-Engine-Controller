@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PiPico")(type "KiCad")(uri "${KIPRJMOD}/footprints/RPiPico.pretty")(options "")(descr ""))
+  (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/footprints/W25Q128JVSIQ.pretty")(options "")(descr ""))
+  (lib (name "LMR33640ADDAR")(type "KiCad")(uri "${KIPRJMOD}/footprints/LMR33640ADDAR.pretty")(options "")(descr ""))
+  (lib (name "SSM3K2615R_LF")(type "KiCad")(uri "${KIPRJMOD}/footprints/SSM3K2615R_LF.pretty")(options "")(descr ""))
+  (lib (name "CSBX0650-6R8M")(type "KiCad")(uri "${KIPRJMOD}/footprints/CSBX0650-6R8M.pretty")(options "")(descr ""))
+  (lib (name "RDT_Logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/RDT_Logo.pretty")(options "")(descr ""))
+)
