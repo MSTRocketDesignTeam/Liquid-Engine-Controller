@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "2d6830ff-a6b3-400b-919c-c4c5d1cf8eae")
 	(paper "A4")
+	(title_block
+		(title "Buck_Converter_Schematic")
+		(date "2025-10-13")
+		(company "Missouri S&T Rocket Design Team")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

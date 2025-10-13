@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "a0f90a35-c5d2-4d42-94a0-727558743781")
 	(paper "A3")
+	(title_block
+		(title "LECV2.0 Main Board")
+		(company "Missouri S&T Rocket Design Team")
+		(comment 1 "Author: Rakshak Sudhakaran")
+	)
 	(lib_symbols
 		(symbol "Adafruit_LSM6DSOX+LIS3MDL:Adafruit_LSM6DSOX+LIS3MDL"
 			(exclude_from_sim no)
