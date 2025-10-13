@@ -513,20 +513,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -24.384 26.162 0)
+			(property "Reference" "U1"
+				(at 4.6833 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "XBee_SMT"
-				(at -20.828 24.384 0)
+				(at 4.6833 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "RF_Module:Digi_XBee_SMT"
@@ -977,6 +979,24 @@
 						)
 					)
 					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1883,6 +1903,18 @@
 		)
 	)
 	(junction
+		(at 223.52 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ba111b-6057-45f0-b719-01e14ca677e1")
+	)
+	(junction
+		(at 219.71 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa71022-28fb-49d6-91db-9739f0be5c56")
+	)
+	(junction
 		(at 220.98 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1912,6 +1944,86 @@
 		(color 0 0 0 0)
 		(uuid "e1fdab5e-1562-4119-bfa6-9460c2d88f75")
 	)
+	(no_connect
+		(at 190.5 99.06)
+		(uuid "02f00bff-816e-4180-8a19-efe5897fae15")
+	)
+	(no_connect
+		(at 190.5 93.98)
+		(uuid "05adc6e5-ebb3-403d-821f-4088ebb5a416")
+	)
+	(no_connect
+		(at 190.5 88.9)
+		(uuid "078ea24e-3f55-4e42-a747-a5622dc923c0")
+	)
+	(no_connect
+		(at 190.5 96.52)
+		(uuid "0a86630f-3200-4234-852c-2f2c8d98382e")
+	)
+	(no_connect
+		(at 220.98 55.88)
+		(uuid "0dbac7bf-bdaf-4551-b1cc-9d941d6a9b08")
+	)
+	(no_connect
+		(at 190.5 68.58)
+		(uuid "18e9b57a-2877-4510-bbd1-4b726c5e1d7a")
+	)
+	(no_connect
+		(at 246.38 60.96)
+		(uuid "34e36bde-9356-4729-ae8b-4e414f1fbf59")
+	)
+	(no_connect
+		(at 246.38 63.5)
+		(uuid "35ec29c1-dff5-425c-bd4e-4e031e3033ef")
+	)
+	(no_connect
+		(at 246.38 71.12)
+		(uuid "378c8169-003b-43a6-b80d-e17357272e4c")
+	)
+	(no_connect
+		(at 190.5 101.6)
+		(uuid "4d74b4a9-e7b3-4cf6-8494-e1f021153865")
+	)
+	(no_connect
+		(at 246.38 68.58)
+		(uuid "5419ca90-3387-4e1f-ab26-0d69717059cb")
+	)
+	(no_connect
+		(at 190.5 66.04)
+		(uuid "8f1baef0-6bfc-4033-bb1e-a22c63b0a70b")
+	)
+	(no_connect
+		(at 190.5 81.28)
+		(uuid "9258e95d-130a-457f-8866-8a2c28d30b50")
+	)
+	(no_connect
+		(at 190.5 73.66)
+		(uuid "a9cb186a-8d1c-4929-a4ca-8bd85dbcac6f")
+	)
+	(no_connect
+		(at 246.38 73.66)
+		(uuid "b7d845c3-d7e3-4b91-b685-176bdf1f3ee2")
+	)
+	(no_connect
+		(at 246.38 66.04)
+		(uuid "c3cd559c-c200-45a6-bdb1-dbbcad999fcf")
+	)
+	(no_connect
+		(at 190.5 76.2)
+		(uuid "c4a58770-d91a-4a76-9131-b044969b4ff1")
+	)
+	(no_connect
+		(at 190.5 86.36)
+		(uuid "d9da7e9b-55e3-4eeb-9eb3-fad0487e76e9")
+	)
+	(no_connect
+		(at 190.5 78.74)
+		(uuid "e4dd2e79-a6df-4c63-853f-42b0f65c5b0f")
+	)
+	(no_connect
+		(at 190.5 104.14)
+		(uuid "f419a6b2-c5e9-4a47-bdb0-4ad655d89a96")
+	)
 	(wire
 		(pts
 			(xy 139.7 104.14) (xy 151.13 104.14)
@@ -1921,16 +2033,6 @@
 			(type default)
 		)
 		(uuid "05d00a4d-0c0f-4578-b955-51fcdafcb7ed")
-	)
-	(wire
-		(pts
-			(xy 218.44 109.22) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a90f83-8d48-43f6-9716-457f3d1b9e76")
 	)
 	(wire
 		(pts
@@ -2064,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 109.22) (xy 220.98 109.22)
+			(xy 218.44 109.22) (xy 219.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2081,6 +2183,16 @@
 			(type default)
 		)
 		(uuid "ae1bb772-fb1f-498f-97d0-32a19b4c287b")
+	)
+	(wire
+		(pts
+			(xy 223.52 109.22) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29a8d78-a5d5-446a-ba66-21507dcf2e9f")
 	)
 	(wire
 		(pts
@@ -2101,6 +2213,16 @@
 			(type default)
 		)
 		(uuid "c3eb55ab-65f5-43ef-8ff7-a21481d30ef8")
+	)
+	(wire
+		(pts
+			(xy 219.71 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1517ff7-fe98-4770-8344-3ec498514af5")
 	)
 	(wire
 		(pts
@@ -2181,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "f7b2662d-a93e-454b-850d-3d1d50f4f6a2")
+	)
+	(wire
+		(pts
+			(xy 219.71 109.22) (xy 219.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe91a848-5eed-44fc-9d2a-12d291734f02")
 	)
 	(global_label "UART_TX"
 		(shape input)
@@ -2539,7 +2671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 113.03 0)
+		(at 219.71 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2548,7 +2680,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b83b42e-5b8c-40d6-bdca-103712699b19")
 		(property "Reference" "#PWR01"
-			(at 218.44 119.38 0)
+			(at 219.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 118.11 0)
+			(at 219.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 113.03 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 113.03 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 113.03 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +3103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -3173,7 +3305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:Digi_XBee_SMT"
+		(property "Footprint" "Custom:XBEE_GND_PAD"
 			(at 239.776 108.204 0)
 			(effects
 				(font
@@ -3311,6 +3443,9 @@
 		(pin "36"
 			(uuid "c09ab8b7-7f7f-4dea-9171-8db9e45d5dae")
 		)
+		(pin "38"
+			(uuid "df4c8390-5b8f-498d-bcae-2dc6ed109880")
+		)
 		(instances
 			(project ""
 				(path "/e1c8f876-6e96-4127-b3a1-831dc1ec7ba6"
@@ -3419,7 +3554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 38.1 0)
 			(effects
 				(font
