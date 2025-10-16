@@ -814,17 +814,65 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Optional 0805 footprint.\nImplement if output unstable."
+		(exclude_from_sim no)
+		(at 150.622 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "942c9cb2-401a-4234-8cc7-a356af97df89")
+	)
+	(text "Voltage Divider to \nregulate FB to 1V."
+		(exclude_from_sim no)
+		(at 174.752 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d813037c-65a9-46dd-a459-6a7d71d81b6f")
+	)
+	(text "F_sw = 400kHz\nI_outMax = 4A"
+		(exclude_from_sim no)
+		(at 105.156 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8fbbe89-4eee-486e-89ac-10ea503573e0")
+	)
 	(junction
-		(at 193.04 68.58)
+		(at 210.82 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "048d60e1-df14-471c-9c38-57efe658c4a5")
 	)
 	(junction
-		(at 176.53 68.58)
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34446f36-7c7c-4141-a05a-6700dff024d8")
+	)
+	(junction
+		(at 194.31 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3af91647-6ab4-404b-a9b2-20e490a46607")
+	)
+	(junction
+		(at 186.69 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6ee7e1-5f2f-415d-b68e-182fd451669e")
+	)
+	(junction
+		(at 186.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ae2c1c7-1868-48b9-b24e-b84c9c50302d")
 	)
 	(junction
 		(at 59.69 72.39)
@@ -845,16 +893,16 @@
 		(uuid "8492d9fd-27a0-41df-89e9-a857628d7f63")
 	)
 	(junction
-		(at 226.06 68.58)
+		(at 243.84 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f8dacf6-09e0-4e2c-9ebb-bc969b5fb30c")
 	)
 	(junction
-		(at 63.5 85.09)
+		(at 66.04 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5eada28-265c-4c9a-9751-49a43d14c6e6")
+		(uuid "9b2921db-b817-478c-b5c0-2c01c7919d32")
 	)
 	(junction
 		(at 82.55 72.39)
@@ -863,26 +911,16 @@
 		(uuid "ca3fe2d0-f9e2-411b-a353-dbeb0eaed828")
 	)
 	(junction
-		(at 209.55 68.58)
+		(at 227.33 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d724bcd2-df78-4244-8ad2-e77f8f5d0483")
 	)
 	(junction
-		(at 168.91 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea90a4d1-5d0a-4612-a3a8-69ad7955f694")
-	)
-	(junction
-		(at 168.91 68.58)
+		(at 186.69 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eba16664-74cd-408b-9f13-bead6b8afe88")
-	)
-	(no_connect
-		(at 90.17 104.14)
-		(uuid "3d9df5e5-50d6-4a5f-b98e-c470765eebc8")
 	)
 	(no_connect
 		(at 90.17 92.71)
@@ -890,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 68.58) (xy 193.04 74.93)
+			(xy 210.82 68.58) (xy 210.82 74.93)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 68.58) (xy 209.55 68.58)
+			(xy 243.84 68.58) (xy 227.33 68.58)
 		)
 		(stroke
 			(width 0)
@@ -930,7 +968,27 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 68.58) (xy 209.55 74.93)
+			(xy 167.64 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0919a094-82a5-4b9a-b63d-5dff63468915")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0937a56b-248a-4ff7-b72a-b0351f9f70b5")
+	)
+	(wire
+		(pts
+			(xy 227.33 68.58) (xy 227.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -940,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 226.06 85.09)
+			(xy 243.84 82.55) (xy 243.84 85.09)
 		)
 		(stroke
 			(width 0)
@@ -960,6 +1018,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 81.28) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d488c62-fd4a-4adb-9803-fd2e68102b1e")
+	)
+	(wire
+		(pts
 			(xy 72.39 72.39) (xy 72.39 74.93)
 		)
 		(stroke
@@ -970,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 68.58) (xy 176.53 68.58)
+			(xy 210.82 68.58) (xy 194.31 68.58)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +1048,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 68.58) (xy 193.04 68.58)
+			(xy 78.74 113.03) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f0bfae-bd78-43e7-9251-86c1c9bd63a1")
+	)
+	(wire
+		(pts
+			(xy 227.33 68.58) (xy 210.82 68.58)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 168.91 93.98)
+			(xy 186.69 99.06) (xy 186.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 140.97 68.58)
+			(xy 158.75 68.58) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 193.04 85.09)
+			(xy 210.82 82.55) (xy 210.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1060,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 63.5 85.09)
+			(xy 59.69 85.09) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1080,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 153.67 68.58)
+			(xy 166.37 68.58) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 68.58) (xy 226.06 68.58)
+			(xy 252.73 68.58) (xy 243.84 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1100,7 +1178,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 68.58) (xy 176.53 74.93)
+			(xy 194.31 68.58) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 168.91 99.06)
+			(xy 125.73 99.06) (xy 167.64 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1120,13 +1198,33 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 168.91 86.36)
+			(xy 186.69 68.58) (xy 186.69 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "762abddc-1e34-41a6-83f9-b25bd3b816ae")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 186.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ef77dc-d462-4a30-a0a9-54153e725814")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bd4763-312e-49ec-b361-d85d922d8536")
 	)
 	(wire
 		(pts
@@ -1140,6 +1238,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 81.28) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6bc59b-d279-4e3a-b37e-77c084d30145")
+	)
+	(wire
+		(pts
 			(xy 82.55 78.74) (xy 90.17 78.74)
 		)
 		(stroke
@@ -1150,7 +1258,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 85.09) (xy 63.5 85.09)
+			(xy 186.69 99.06) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c6f086-0172-4a48-a168-281e8a5cf229")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.09) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 82.55) (xy 209.55 85.09)
+			(xy 227.33 82.55) (xy 227.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 68.58) (xy 168.91 68.58)
+			(xy 194.31 68.58) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1200,17 +1318,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 168.91 119.38)
+			(xy 167.64 86.36) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb91107f-d4cc-44d8-80bd-a0aae08da430")
+		(uuid "e6729276-363c-4912-a344-e762a19204cc")
 	)
 	(wire
 		(pts
-			(xy 226.06 68.58) (xy 226.06 74.93)
+			(xy 243.84 68.58) (xy 243.84 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 63.5 86.36)
+			(xy 66.04 85.09) (xy 66.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 176.53 85.09)
+			(xy 194.31 82.55) (xy 194.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1358,7 @@
 	)
 	(hierarchical_label "Vout (5V)"
 		(shape input)
-		(at 234.95 68.58 0)
+		(at 252.73 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1338,87 +1456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 226.06 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "095e1024-8f93-40aa-9ab7-dccf6c9cf7e9")
-		(property "Reference" "C8"
-			(at 229.87 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 229.87 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 227.0252 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5784/CL21A226MQQNNNE.pdf"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74ca57e6-b68e-4f3e-8253-3e3c71f833e6")
-		)
-		(pin "2"
-			(uuid "9c04d162-5a67-4a21-8595-32f9088a1799")
-		)
-		(instances
-			(project "LECV2.0_Main_Board"
-				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 226.06 85.09 0)
+		(at 243.84 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1427,7 +1466,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f87c7ae-01b4-405b-a554-33407e73b24b")
 		(property "Reference" "#PWR042"
-			(at 226.06 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 90.17 0)
+			(at 243.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 85.09 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 85.09 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 85.09 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1523,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 85.09 0)
+		(at 227.33 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1493,7 +1532,7 @@
 		(fields_autoplaced yes)
 		(uuid "27bd612a-fe22-422d-810d-eacb22c008f0")
 		(property "Reference" "#PWR041"
-			(at 209.55 91.44 0)
+			(at 227.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 90.17 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 85.09 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 85.09 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 85.09 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1589,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 149.86 68.58 90)
+		(at 162.56 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1559,7 +1598,7 @@
 		(fields_autoplaced yes)
 		(uuid "3161ea44-d6ed-462a-b440-f57f92032a46")
 		(property "Reference" "L1"
-			(at 149.86 63.5 90)
+			(at 162.56 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1606,7 @@
 			)
 		)
 		(property "Value" "6.8 uH"
-			(at 149.86 66.04 90)
+			(at 162.56 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1614,7 @@
 			)
 		)
 		(property "Footprint" "CSBX0650-6R8M:IND_CSBX0650-6R8M"
-			(at 149.86 68.58 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1623,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.codaca.com/Private/pdf/CSBX0650.pdf"
-			(at 149.86 68.58 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1632,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 149.86 68.58 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1641,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/codaca/CSBX0650-6R8M/16023993"
-			(at 149.86 68.58 90)
+			(at 162.56 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 78.74 0)
+		(at 194.31 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1702,7 +1741,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b8ce6fe-4fb3-4fac-92f6-8f3a1dd52fe5")
 		(property "Reference" "C5"
-			(at 180.34 77.4699 0)
+			(at 198.12 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1750,7 @@
 			)
 		)
 		(property "Value" "22 uF"
-			(at 180.34 80.0099 0)
+			(at 198.12 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1759,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 177.4952 82.55 0)
+			(at 195.2752 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,8 +1767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5784/CL21A226MQQNNNE.pdf"
-			(at 176.53 78.74 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2414/CL21A226MAYNNWE_Spec.pdf"
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1777,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 78.74 0)
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,8 +1785,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"
-			(at 176.53 78.74 0)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MAYNNWE/16344162"
+			(at 194.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,16 +1811,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 78.74 0)
+		(at 227.33 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40847f39-2fb7-424a-b969-f716b13e56fd")
+		(uuid "3fff2ecd-4df4-49fd-a74c-ecfe9247e596")
 		(property "Reference" "C7"
-			(at 213.36 77.4699 0)
+			(at 231.14 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1829,7 @@
 			)
 		)
 		(property "Value" "22 uF"
-			(at 213.36 80.0099 0)
+			(at 231.14 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1838,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 210.5152 82.55 0)
+			(at 228.2952 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,8 +1846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5784/CL21A226MQQNNNE.pdf"
-			(at 209.55 78.74 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2414/CL21A226MAYNNWE_Spec.pdf"
+			(at 227.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1856,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 209.55 78.74 0)
+			(at 227.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,8 +1864,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"
-			(at 209.55 78.74 0)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MAYNNWE/16344162"
+			(at 227.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,10 +1874,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed4fe4c0-77f1-40ac-9328-d1d36020fc65")
+			(uuid "11296905-5838-4ab8-bc5e-a0446c010ef5")
 		)
 		(pin "2"
-			(uuid "c9166138-8610-4e0c-be22-7897a2d9b854")
+			(uuid "9078727a-0f73-435a-b85a-8a67dc0dc8fb")
 		)
 		(instances
 			(project "LECV2.0_Main_Board"
@@ -1850,96 +1889,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 193.04 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "486e156a-1ac5-4b09-b38c-1811cd203d16")
-		(property "Reference" "C6"
-			(at 196.85 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 196.85 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 194.0052 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5784/CL21A226MQQNNNE.pdf"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fad09bda-8998-4e29-85eb-bdf0b725d997")
-		)
-		(pin "2"
-			(uuid "8cfc501d-49bb-4acb-a7d4-25218a624eae")
-		)
-		(instances
-			(project "LECV2.0_Main_Board"
-				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 193.04 85.09 0)
+		(at 78.74 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b8eaa29-d6f8-4767-934c-33890db3b866")
-		(property "Reference" "#PWR040"
-			(at 193.04 91.44 0)
+		(uuid "44acb8dd-7923-49cd-84ab-730cd4cdc00a")
+		(property "Reference" "#PWR026"
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 90.17 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 85.09 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 85.09 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1934,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 85.09 0)
+			(at 78.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3021417a-f02e-4def-a164-f6e728065839")
+		)
+		(instances
+			(project "LECV2.0_Main_Board"
+				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b8eaa29-d6f8-4767-934c-33890db3b866")
+		(property "Reference" "#PWR040"
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 85.09 0)
+		(at 194.31 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2005,7 +2031,7 @@
 		(fields_autoplaced yes)
 		(uuid "54ed32a1-7028-4dda-92eb-2be20ee540da")
 		(property "Reference" "#PWR035"
-			(at 176.53 91.44 0)
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 90.17 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 85.09 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 85.09 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 85.09 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,34 +2087,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 168.91 90.17 180)
+		(lib_id "Device:C")
+		(at 78.74 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "997bacd3-b296-43a7-87db-9e5da0089e7f")
-		(property "Reference" "R6"
-			(at 162.306 89.154 0)
+		(uuid "57313cd3-7012-4355-a15d-bd3237bc9d81")
+		(property "Reference" "C10"
+			(at 82.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 161.29 91.44 0)
+		(property "Value" "1u"
+			(at 82.55 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.894 89.916 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 79.7052 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,8 +2122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
-			(at 168.91 90.17 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3713/CL21Y105KCYVPNE_DS.pdf"
+			(at 78.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2132,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 90.17 0)
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21Y105KCYVPNE/14565404"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff0a0b4d-4228-4089-b0df-9181154d2c0d")
+		)
+		(pin "2"
+			(uuid "2058b7bb-3d29-45ed-a0f7-877eebf6565f")
+		)
+		(instances
+			(project "LECV2.0_Main_Board"
+				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 186.69 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dc830e9-d9bb-42c1-a845-3ac0272c15a9")
+		(property "Reference" "R8"
+			(at 189.23 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24.9K"
+			(at 189.23 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.706 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 186.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2218,241 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0603100KBEEA/1606995"
-			(at 168.91 90.17 0)
+			(at 186.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "092b182a-f04f-4f5a-9a98-58f2a8a15f99")
+		)
+		(pin "2"
+			(uuid "087f1df2-25f5-4c79-aada-dea1f2910267")
+		)
+		(instances
+			(project "LECV2.0_Main_Board"
+				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7acab7df-3018-4883-9148-36a6a0944cdc")
+		(property "Reference" "C12"
+			(at 158.242 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNP"
+			(at 158.242 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.6748 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04b10106-24ef-4075-8c12-0b48cb79dfa4")
+		)
+		(pin "2"
+			(uuid "4dc78087-c383-4380-92f1-1c50d638315f")
+		)
+		(instances
+			(project "LECV2.0_Main_Board"
+				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "995e5cec-d47b-462a-bcaa-e1936df0cbbf")
+		(property "Reference" "C8"
+			(at 247.65 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 247.65 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 244.8052 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2414/CL21A226MAYNNWE_Spec.pdf"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MAYNNWE/16344162"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f35cd4-ad96-4d7a-a216-443872f1af38")
+		)
+		(pin "2"
+			(uuid "9485e943-7e6a-4442-a564-b4f961f4d017")
+		)
+		(instances
+			(project "LECV2.0_Main_Board"
+				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 186.69 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "997bacd3-b296-43a7-87db-9e5da0089e7f")
+		(property "Reference" "R6"
+			(at 180.086 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.674 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW0603100KBEEA/1606995"
+			(at 186.69 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2554,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 119.38 0)
+		(at 186.69 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2225,7 +2563,7 @@
 		(fields_autoplaced yes)
 		(uuid "aee1e8c0-de2c-4fa4-a171-e31151f79179")
 		(property "Reference" "#PWR036"
-			(at 168.91 125.73 0)
+			(at 186.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 124.46 0)
+			(at 186.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 119.38 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 86.36 0)
+		(at 66.04 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2291,7 +2629,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2d1aac4-5c31-482e-8e8b-b06bb48a4e8d")
 		(property "Reference" "#PWR039"
-			(at 63.5 92.71 0)
+			(at 66.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 91.44 0)
+			(at 66.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 86.36 0)
+			(at 66.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 86.36 0)
+			(at 66.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 86.36 0)
+			(at 66.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,6 +2754,85 @@
 			(project "LECV2.0_Main_Board"
 				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8650431-bc76-432e-8bd8-b03513a1d045")
+		(property "Reference" "C6"
+			(at 214.63 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 214.63 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 211.7852 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2414/CL21A226MAYNNWE_Spec.pdf"
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MAYNNWE/16344162"
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee9675be-a6c7-4867-8df1-a48838fd3389")
+		)
+		(pin "2"
+			(uuid "22fed8ce-9ffc-46d0-85e3-726cf2202777")
+		)
+		(instances
+			(project "LECV2.0_Main_Board"
+				(path "/a0f90a35-c5d2-4d42-94a0-727558743781/5c511af3-4f24-426e-b849-3aad5d9b55cf"
+					(reference "C6")
 					(unit 1)
 				)
 			)
