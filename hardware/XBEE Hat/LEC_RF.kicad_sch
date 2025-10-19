@@ -1933,6 +1933,12 @@
 		(uuid "4da5e795-2d96-48e4-b18e-032b6a203672")
 	)
 	(junction
+		(at 49.53 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7696a976-c5bc-4505-889e-32dfd7fbd508")
+	)
+	(junction
 		(at 215.9 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2036,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 55.88) (xy 49.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12195d3d-0151-4af8-be5e-338f1c7a00bb")
+	)
+	(wire
+		(pts
 			(xy 156.21 33.02) (xy 166.37 33.02)
 		)
 		(stroke
@@ -2043,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "12349b45-0d30-46da-b97c-ada08790b8ad")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21eb8eb6-1ead-498a-9aa5-c601d002e8d0")
 	)
 	(wire
 		(pts
@@ -2266,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 59.69 48.26)
+			(xy 40.64 48.26) (xy 49.53 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2283,6 +2309,16 @@
 			(type default)
 		)
 		(uuid "edc9a7c5-50c2-4576-92a1-c554eb29b3fb")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f325a1a4-30e0-413a-8019-7d22ef49d3bf")
 	)
 	(wire
 		(pts
@@ -2314,93 +2350,49 @@
 		)
 		(uuid "fe91a848-5eed-44fc-9d2a-12d291734f02")
 	)
-	(global_label "UART_TX"
-		(shape input)
-		(at 151.13 106.68 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 184.15 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7664685c-fb6b-4550-b4cb-43728dce2678")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9166 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "68ced27b-0916-4f36-936e-c07b9dd22a18")
 	)
-	(global_label "UART_RX"
+	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 151.13 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b8eb0539-073e-40f9-85d9-ea0f38a774a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.219 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "7042e6cd-65ed-4ac3-acdc-4a52565d6962")
 	)
-	(global_label "UART_TX"
-		(shape input)
-		(at 184.15 60.96 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "UART_TX"
+		(shape output)
+		(at 151.13 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c9163be4-341d-463f-8002-9988b3213549")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3634 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "8a47ba7f-8d5e-45e0-a375-0964414980aa")
 	)
-	(global_label "UART_RX"
+	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 184.15 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f99d9207-d7c8-4203-a7d0-c78345405fa6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.061 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "a3d3644e-4397-4839-bc4a-430e7505daed")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
@@ -2804,7 +2796,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 48.26 90)
+		(at 40.64 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2813,7 +2805,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f50a1f1-9422-497c-b47d-c6a959bd6393")
 		(property "Reference" "#PWR010"
-			(at 54.61 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2814,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 46.99 48.2599 90)
+			(at 36.83 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 48.26 0)
+			(at 40.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 48.26 0)
+			(at 40.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 48.26 0)
+			(at 40.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,6 +2922,72 @@
 			(project ""
 				(path "/e1c8f876-6e96-4127-b3a1-831dc1ec7ba6"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508a508d-da95-4909-a90b-6e80895cd877")
+		(property "Reference" "#PWR012"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59d760cf-213b-4ea7-b7b3-affa446ce57a")
+		)
+		(instances
+			(project ""
+				(path "/e1c8f876-6e96-4127-b3a1-831dc1ec7ba6"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3070,6 +3128,76 @@
 			(project ""
 				(path "/e1c8f876-6e96-4127-b3a1-831dc1ec7ba6"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 49.53 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "832abf17-33fd-4327-92f3-7388d21b02ec")
+		(property "Reference" "C3"
+			(at 52.07 52.0635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 52.07 54.6035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bae409ef-93f6-497e-ad25-c4e10f4b71cc")
+		)
+		(pin "1"
+			(uuid "5a95784c-6b04-4b03-8d01-6dfccab8abca")
+		)
+		(instances
+			(project ""
+				(path "/e1c8f876-6e96-4127-b3a1-831dc1ec7ba6"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3473,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV1117-33"
+		(property "Value" "TLV1117LV33DCYR"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -3499,7 +3627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+		(property "Description" "1A Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -3554,7 +3682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.78 38.1 0)
 			(effects
 				(font
