@@ -6,4 +6,5 @@
   (lib (name "PiPico")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "LMR33640ADDAR")(type "KiCad")(uri "${KIPRJMOD}/libraries/LMR33640ADDAR.kicad_sym")(options "")(descr ""))
   (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/libraries/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
+  (lib (name "BUK6Y33-60PX")(type "KiCad")(uri "${KIPRJMOD}/libraries/BUK6Y33-60PX.kicad_sym")(options "")(descr ""))
 )

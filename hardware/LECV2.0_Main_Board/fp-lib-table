@@ -7,4 +7,5 @@
   (lib (name "CSBX0650-6R8M")(type "KiCad")(uri "${KIPRJMOD}/footprints/CSBX0650-6R8M.pretty")(options "")(descr ""))
   (lib (name "RDT_Logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/RDT_Logo.pretty")(options "")(descr ""))
   (lib (name "EEUFC1H151B")(type "KiCad")(uri "${KIPRJMOD}/footprints/EEUFC1H151B.pretty")(options "")(descr ""))
+  (lib (name "BUK6Y33-60PX")(type "KiCad")(uri "${KIPRJMOD}/footprints/BUK6Y33-60PX.pretty")(options "")(descr ""))
 )
