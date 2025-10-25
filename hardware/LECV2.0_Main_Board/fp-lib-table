@@ -8,4 +8,7 @@
   (lib (name "RDT_Logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/RDT_Logo.pretty")(options "")(descr ""))
   (lib (name "EEUFC1H151B")(type "KiCad")(uri "${KIPRJMOD}/footprints/EEUFC1H151B.pretty")(options "")(descr ""))
   (lib (name "BUK6Y33-60PX")(type "KiCad")(uri "${KIPRJMOD}/footprints/BUK6Y33-60PX.pretty")(options "")(descr ""))
+  (lib (name "INA_238")(type "KiCad")(uri "${KIPRJMOD}/footprints/INA_238.pretty")(options "")(descr ""))
+  (lib (name "Adafruit_LSM6DSOX+LIS3MDL")(type "KiCad")(uri "${KIPRJMOD}/footprints/Adafruit_LSM6DSOX+LIS3MDL.pretty")(options "")(descr ""))
+  (lib (name "XBee_HAT")(type "KiCad")(uri "${KIPRJMOD}/footprints/XBee_HAT.pretty")(options "")(descr ""))
 )

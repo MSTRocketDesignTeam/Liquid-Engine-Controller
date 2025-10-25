@@ -52,7 +52,7 @@
 		(symbol "INA237_Module_0_1"
 			(rectangle
 				(start -11.43 -1.27)
-				(end 6.35 -15.24)
+				(end 6.35 -29.21)
 				(stroke
 					(width 0)
 					(type default)
@@ -66,7 +66,7 @@
 			(pin input line
 				(at -13.97 -5.08 0)
 				(length 2.54)
-				(name "Vcc"
+				(name "Vin+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84,7 +84,7 @@
 			(pin bidirectional line
 				(at -13.97 -7.62 0)
 				(length 2.54)
-				(name "SDA"
+				(name "VBus"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -99,10 +99,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -13.97 -10.16 0)
 				(length 2.54)
-				(name "SCL"
+				(name "Vin-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,10 +117,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -13.97 -12.7 0)
+			(pin output line
+				(at 8.89 -5.08 180)
 				(length 2.54)
-				(name "GND"
+				(name "ALRT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -6.35 180)
+				(at 8.89 -7.62 180)
 				(length 2.54)
 				(name "Vin+"
 					(effects
@@ -145,7 +145,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -153,8 +153,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 8.89 -8.89 180)
+			(pin output line
+				(at 8.89 -10.16 180)
 				(length 2.54)
 				(name "Vin-"
 					(effects
@@ -163,7 +163,97 @@
 						)
 					)
 				)
-				(number ""
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -12.7 180)
+				(length 2.54)
+				(name "VBus"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -15.24 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -17.78 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -20.32 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -22.86 180)
+				(length 2.54)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
