@@ -11,4 +11,5 @@
   (lib (name "INA_238")(type "KiCad")(uri "${KIPRJMOD}/footprints/INA_238.pretty")(options "")(descr ""))
   (lib (name "Adafruit_LSM6DSOX+LIS3MDL")(type "KiCad")(uri "${KIPRJMOD}/footprints/Adafruit_LSM6DSOX+LIS3MDL.pretty")(options "")(descr ""))
   (lib (name "XBee_HAT")(type "KiCad")(uri "${KIPRJMOD}/footprints/XBee_HAT.pretty")(options "")(descr ""))
+  (lib (name "54-00440")(type "KiCad")(uri "${KIPRJMOD}/footprints/54-00440.pretty")(options "")(descr ""))
 )

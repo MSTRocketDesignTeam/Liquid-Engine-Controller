@@ -9665,7 +9665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "54-00440:TENSILITY_54-00440"
 			(at 358.14 203.2 0)
 			(effects
 				(font
@@ -9674,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00440.pdf"
 			(at 358.14 203.2 0)
 			(effects
 				(font
@@ -9684,6 +9684,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 358.14 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/tensility-international-corp/54-00440/26797725"
 			(at 358.14 203.2 0)
 			(effects
 				(font
@@ -11951,7 +11960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "54-00440:TENSILITY_54-00440"
 			(at 358.14 222.25 0)
 			(effects
 				(font
@@ -11960,7 +11969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00440.pdf"
 			(at 358.14 222.25 0)
 			(effects
 				(font
@@ -11970,6 +11979,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 358.14 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/tensility-international-corp/54-00440/26797725"
 			(at 358.14 222.25 0)
 			(effects
 				(font
