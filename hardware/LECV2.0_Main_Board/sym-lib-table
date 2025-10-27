@@ -9,4 +9,5 @@
   (lib (name "BUK6Y33-60PX")(type "KiCad")(uri "${KIPRJMOD}/libraries/BUK6Y33-60PX.kicad_sym")(options "")(descr ""))
   (lib (name "Adafruit_LSM6DSOX_LIS3MDL")(type "KiCad")(uri "${KIPRJMOD}/libraries/Adafruit_LSM6DSOX_LIS3MDL.kicad_sym")(options "")(descr ""))
   (lib (name "XBee_HAT")(type "KiCad")(uri "${KIPRJMOD}/libraries/XBee_HAT.kicad_sym")(options "")(descr ""))
+  (lib (name "BAV199_215")(type "KiCad")(uri "${KIPRJMOD}/libraries/BAV199_215.kicad_sym")(options "")(descr ""))
 )
