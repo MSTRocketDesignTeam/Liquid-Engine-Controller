@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "TPS70933DBVR")(type "KiCad")(uri "${KIPRJMOD}/footprints/TPS70933DBVR.pretty")(options "")(descr ""))
+  (lib (name "RDT_Logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/RDT_Logo.pretty")(options "")(descr ""))
+  (lib (name "DAQ_module")(type "KiCad")(uri "${KIPRJMOD}/footprints/DAQ_module.pretty")(options "")(descr ""))
 )
