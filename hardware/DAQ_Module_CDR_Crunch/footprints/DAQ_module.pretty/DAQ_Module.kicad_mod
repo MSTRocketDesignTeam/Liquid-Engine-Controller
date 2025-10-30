@@ -82,7 +82,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a14985aa-b886-4fea-9143-76989d7ff7a3")
+		(uuid "b193279b-8cbf-4d44-9abf-60956bf7c8f1")
 	)
 	(fp_line
 		(start 19.34 7.14)
@@ -539,6 +539,13 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -8.26 57.84)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0cfe2088-2ea6-410d-a95e-4d68c2f3281f")
 	)
 	(pad "" np_thru_hole circle
 		(at 15.44 8.14)
