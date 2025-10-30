@@ -300,7 +300,7 @@
 			(pin input line
 				(at -20.32 -39.37 0)
 				(length 2.54)
-				(name "T1+"
+				(name "T1-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -318,7 +318,7 @@
 			(pin input line
 				(at -20.32 -41.91 0)
 				(length 2.54)
-				(name "T1-"
+				(name "T1+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			(pin input line
 				(at -20.32 -44.45 0)
 				(length 2.54)
-				(name "T2+"
+				(name "T2-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -354,7 +354,7 @@
 			(pin input line
 				(at -20.32 -46.99 0)
 				(length 2.54)
-				(name "T2-"
+				(name "T2+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -372,7 +372,7 @@
 			(pin input line
 				(at -20.32 -49.53 0)
 				(length 2.54)
-				(name "T3+"
+				(name "T3-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -390,7 +390,7 @@
 			(pin input line
 				(at -20.32 -52.07 0)
 				(length 2.54)
-				(name "T3-"
+				(name "T3+"
 					(effects
 						(font
 							(size 1.27 1.27)

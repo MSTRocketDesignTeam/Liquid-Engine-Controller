@@ -190,7 +190,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "T3-"
+	(fp_text user "T3+"
 		(at -12.7 53.34 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -203,7 +203,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "T3+"
+	(fp_text user "T3-"
 		(at -12.7 50.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -281,7 +281,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "T2-"
+	(fp_text user "T2+"
 		(at -12.7 48.26 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -385,7 +385,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "T2+"
+	(fp_text user "T2-"
 		(at -12.7 45.72 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -437,7 +437,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "T1+"
+	(fp_text user "T1-"
 		(at -12.7 40.64 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -463,7 +463,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "T1-"
+	(fp_text user "T1+"
 		(at -12.7 43.18 0)
 		(unlocked yes)
 		(layer "F.SilkS")
