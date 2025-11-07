@@ -2414,7 +2414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C102F5HACAUTO/7958273"
 			(at 135.89 38.1 0)
 			(effects
 				(font
@@ -3089,7 +3089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21Y105KCYVPNE/14565404"
 			(at 49.53 53.34 0)
 			(effects
 				(font
@@ -3159,7 +3159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -3293,7 +3293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB301V/1465735"
 			(at 130.81 33.02 0)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XBee_SMT"
+		(property "Value" "XBP9X-DMUS-001"
 			(at 223.1233 55.88 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/digi/XBP9X-DMUS-001/5972744"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21Y105KCYVPNE/14565404"
 			(at 144.78 38.1 0)
 			(effects
 				(font
