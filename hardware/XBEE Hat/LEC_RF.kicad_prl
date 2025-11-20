@@ -5,12 +5,12 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.5799999833106995,
       "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.6
@@ -87,16 +87,16 @@
       9
     ],
     "col_widths": [
-      148,
-      138,
-      91,
+      66,
       61,
-      91,
-      91,
-      91,
-      65,
-      91,
-      91
+      41,
+      27,
+      41,
+      41,
+      41,
+      29,
+      41,
+      41
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

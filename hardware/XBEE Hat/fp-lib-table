@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LD1085D2M33R")(type "KiCad")(uri "${KIPRJMOD}/footprints/LD1085D2M33R.pretty")(options "")(descr ""))
+  (lib (name "LD1086DT33TR")(type "KiCad")(uri "${KIPRJMOD}/footprints/LD1086DT33TR.pretty")(options "")(descr ""))
+  (lib (name "RDT_Logo")(type "KiCad")(uri "${KIPRJMOD}/footprints/RDT_Logo.pretty")(options "")(descr ""))
+)
