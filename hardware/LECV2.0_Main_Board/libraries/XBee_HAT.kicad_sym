@@ -66,7 +66,7 @@
 			(pin power_in line
 				(at -11.43 -3.81 0)
 				(length 2.54)
-				(name "Vcc"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -84,7 +84,7 @@
 			(pin input line
 				(at -11.43 -6.35 0)
 				(length 2.54)
-				(name "UART_RX"
+				(name "UART_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,7 +102,7 @@
 			(pin output line
 				(at -11.43 -8.89 0)
 				(length 2.54)
-				(name "UART_TX"
+				(name "UART_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -117,10 +117,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -11.43 -11.43 0)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)

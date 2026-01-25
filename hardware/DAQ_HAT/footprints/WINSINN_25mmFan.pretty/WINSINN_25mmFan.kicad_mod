@@ -1,0 +1,211 @@
+(footprint "WINSINN_25mmFan"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2a70058c-2ba9-4ad4-bd10-7d57a8284322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WINSINN_25mmFan"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "126753e9-2c58-4e55-a751-154818f11991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.amazon.com/gp/product/B07KS36L66/ref=sw_img_1?smid=A2QQQKMKGVNA5E&th=1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ee8c1d5-25ce-477d-aa3d-feef6b123efb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e84df19a-4c4d-4ed4-ba72-ac5aa130ef2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ProductLink" "https://www.amazon.com/gp/product/B07KS36L66/ref=sw_img_1?smid=A2QQQKMKGVNA5E&th=1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df8cfa23-fdc8-4bbe-9fd3-5ed3e76eaf35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -12.5 3.4)
+		(end -12.5 15.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43bcc5ae-dd31-4a5c-8917-99cbd9acfed3")
+	)
+	(fp_line
+		(start -12.5 15.9)
+		(end -12.5 28.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d32ef41-1285-4d38-9a03-027c6a91bd39")
+	)
+	(fp_line
+		(start -12.5 28.4)
+		(end 0 28.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59005e3e-1979-416c-b9d7-203584d773cb")
+	)
+	(fp_line
+		(start 0 3.4)
+		(end -12.5 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb8e8105-8b8b-4c31-859e-935fbe40d412")
+	)
+	(fp_line
+		(start 0 28.4)
+		(end 12.5 28.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8095228a-f8c5-453b-b0f2-d14869aa408e")
+	)
+	(fp_line
+		(start 12.5 3.4)
+		(end 0 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2fc53a3-509e-4adb-8204-54ddb8fd4e8f")
+	)
+	(fp_line
+		(start 12.5 15.9)
+		(end 12.5 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f8189d32-36e0-4ec8-87a0-c99408c1bf18")
+	)
+	(fp_line
+		(start 12.5 28.4)
+		(end 12.5 15.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6504819c-546f-4f59-a22e-c3bbf8cd4e17")
+	)
+	(fp_arc
+		(start 7.15 3.4)
+		(mid 6.25 4.3)
+		(end 5.35 3.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6db8a00e-3a36-44b7-96a2-81495b06425e")
+	)
+	(fp_circle
+		(center 0 15.9)
+		(end 9 15.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "c45f8dfe-f6a3-488f-aab1-7938a4c1c048")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c734003e-55e0-4f5d-a04e-0b1236d6d594")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10 5.9)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fa5b22dd-e880-4a1f-9102-1a88d66030f4")
+	)
+	(pad "" np_thru_hole circle
+		(at -10 25.9)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "10c36226-1ecb-49e4-9002-ef370370f195")
+	)
+	(pad "" np_thru_hole circle
+		(at 10 5.9)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9b529310-b34d-44bb-9a8f-e6681a2f9c9c")
+	)
+	(pad "" np_thru_hole circle
+		(at 10 25.9)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3385eec7-73e2-4ef1-9a22-e0ab791a50d4")
+	)
+	(embedded_fonts no)
+)
