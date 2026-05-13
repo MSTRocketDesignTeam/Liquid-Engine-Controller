@@ -30,6 +30,9 @@ void read_DAQ_module(
     volatile uint32_t &AI1Reading,
     volatile uint32_t &AI2Reading,
     volatile uint32_t &AI3Reading,
+    volatile uint32_t &AI4Reading,
+    volatile uint32_t &AI5Reading,
+    volatile uint32_t &AI6Reading,
     volatile uint32_t &TC1Reading,
     volatile uint32_t &TC2Reading,
     volatile uint32_t &TC3Reading

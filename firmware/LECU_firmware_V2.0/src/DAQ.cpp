@@ -51,8 +51,6 @@ uint32_t analog_read_MCP3564_mux_chan(int csPin, int posMuxChanByte, int negMuxC
     ADC_CRC.WORD = 0x0000;
     uint64_t CALC_CRC = 0x000000000000;
 
-    delay(1400);   // Delay for 1.4s. It appears that the lower limit for this is between 1300 and 1400ms
-
     if(CONV_START(posMuxChanByte | negMuxChanByte) == 0x13) {     // Convert posMuxChanByte(+) and negMuxChanByte(-) channel ("single ended" reading) and check Data-Ready(DR) Bit of STATUS Byte.               
         CONV_DATA.DWORD = SPI_RD(_ADCDATA_, ADC_CRC, CALC_CRC);      // Read Signal Conversion data.
     }  // ADC Readings will be uncharacteristically perfectly stable at zero if there is no valid reading of the analog channel
@@ -104,6 +102,9 @@ void read_DAQ_module(
     volatile uint32_t &AI1Reading,
     volatile uint32_t &AI2Reading,
     volatile uint32_t &AI3Reading,
+    volatile uint32_t &AI4Reading,
+    volatile uint32_t &AI5Reading,
+    volatile uint32_t &AI6Reading,
     volatile uint32_t &TC1Reading,
     volatile uint32_t &TC2Reading,
     volatile uint32_t &TC3Reading
@@ -113,6 +114,9 @@ void read_DAQ_module(
     AI1Reading = analog_read_MCP3564_mux_chan(MCP3564_CS_PIN, MUX_VINP_CH1, MUX_VINN_AGND);
     AI2Reading = analog_read_MCP3564_mux_chan(MCP3564_CS_PIN, MUX_VINP_CH2, MUX_VINN_AGND);
     AI3Reading = analog_read_MCP3564_mux_chan(MCP3564_CS_PIN, MUX_VINP_CH3, MUX_VINN_AGND);
+    AI4Reading = analog_read_MCP3564_mux_chan(MCP3564_CS_PIN, MUX_VINP_CH4, MUX_VINN_AGND);
+    AI5Reading = analog_read_MCP3564_mux_chan(MCP3564_CS_PIN, MUX_VINP_CH5, MUX_VINN_AGND);
+    AI6Reading = analog_read_MCP3564_mux_chan(MCP3564_CS_PIN, MUX_VINP_CH6, MUX_VINN_AGND);
     
     // Read thermocouples
     TC1Reading = read_MAX31855(TC1_CS_PIN);
