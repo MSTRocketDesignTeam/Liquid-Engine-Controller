@@ -19,6 +19,22 @@ char N2OMainValvePurgeState;
 char mainValvesState;
 char throttlingAlgorithmState;
 
+static unsigned long lastLEDMillis = 0;
+static unsigned long currentLEDMillis = 0;
+static int LEDState = LOW;
+
+// ------------------- Sensor Data -----------------------
+volatile uint32_t AI0Reading;
+volatile uint32_t AI1Reading;
+volatile uint32_t AI2Reading;
+volatile uint32_t AI3Reading;
+volatile uint32_t AI4Reading;
+volatile uint32_t AI5Reading;
+volatile uint32_t AI6Reading;
+volatile uint32_t TC1Reading;
+volatile uint32_t TC2Reading;
+volatile uint32_t TC3Reading;
+
 // -------------------- Serial RX --------------------
 const byte NUM_CHARS = 4;
 char receivedChars[NUM_CHARS];
@@ -32,27 +48,52 @@ volatile bool sendDataFlag = false;
 // -------------------- Function Declarations --------------------
 void recv_with_start_end_markers();
 void process_ctrl_packet();
+void send_sensor_data();
 bool send_sensor_data_ISR(struct repeating_timer *t);
 
 
 void setup() {
   Serial1.begin(115200);
+  //Serial.begin(115200);
   pinMode(LECUServoPwrSwitchPin, OUTPUT);
   pinMode(indicatorLEDPin, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
 
   fuelValve.attach(fuelMainValvePWMPin, 500, 2500);
   oxValve.attach(oxMainValvePWMPin, 500, 2500);
+
+  init_DAQ();
+  delay(1500);
+
+  // Timer ISR every 10 ms
+  ITimer0.attachInterruptInterval(SENSOR_DATA_TX_INTERVAL*1000, send_sensor_data_ISR);
 }
 
 void loop() {
   recv_with_start_end_markers();
   if (newData) {
+    process_ctrl_packet();
     newData = false;
   }
-  process_ctrl_packet();
-  
 
+  if (sendDataFlag) {
+    sendDataFlag = false;
+    read_DAQ_module(AI0Reading, AI1Reading, AI2Reading, AI3Reading, AI4Reading, AI5Reading, AI6Reading, TC1Reading, TC2Reading, TC3Reading);
+    send_sensor_data();
+  }
+
+  currentLEDMillis = millis();
+
+    if ((LECUServoPwrSwitchState == 'L') || (LECUServoPwrSwitchState == 'H')) {
+        if ((currentLEDMillis - lastLEDMillis) >= 1000) {
+            lastLEDMillis = currentLEDMillis;
+            LEDState = (LEDState == LOW) ? HIGH : LOW;
+            digitalWrite(indicatorLEDPin, LEDState);
+        }
+    } else {
+        digitalWrite(indicatorLEDPin, LOW);
+    }
+  
 }
 
 
@@ -105,6 +146,29 @@ void process_ctrl_packet() {
     fuelValve,
     indicatorLEDPin
   );
+}
+
+void send_sensor_data() {
+
+  /*
+  if ((Serial1.availableForWrite() < 64)) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    return;
+  }
+  */
+
+  Serial1.print('<');
+  Serial1.print(AI0Reading);
+  Serial1.print(AI1Reading);
+  Serial1.print(AI2Reading);
+  Serial1.print(AI3Reading);
+  Serial1.print(AI4Reading);
+  Serial1.print(AI5Reading);
+  Serial1.print(AI6Reading);
+  Serial1.print(TC1Reading);
+  Serial1.print(TC2Reading);
+  Serial1.print(TC3Reading);
+  Serial1.print('>');
 }
 
 bool send_sensor_data_ISR(struct repeating_timer *t) {

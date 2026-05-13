@@ -2,10 +2,6 @@
 #include <Servo.h>
 #include <control.h>
 
-static unsigned long lastLEDMillis = 0;
-static unsigned long currentLEDMillis = 0;
-static int LEDState = LOW;
-
 // Purpose: update onboard control hardware states (valve positions, indicator LED states, etc.) based on ctrlString index values. 
 // Pre: 
 // Post: 
@@ -33,17 +29,7 @@ void update_onboard_states(char LECUServoPwrSwitchState, char N2OMainPurgeState,
         }
     }
     
-    currentLEDMillis = millis();
-
-    if ((LECUServoPwrSwitchState == 'L') || (LECUServoPwrSwitchState == 'H')) {
-        if ((currentLEDMillis - lastLEDMillis) >= 1000) {
-            lastLEDMillis = currentLEDMillis;
-            LEDState = (LEDState == LOW) ? HIGH : LOW;
-            digitalWrite(indicatorLEDPin, LEDState);
-        }
-    } else {
-        digitalWrite(indicatorLEDPin, LOW);
-    }
+    
     
 
 }
