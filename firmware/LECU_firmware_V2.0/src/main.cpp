@@ -84,15 +84,15 @@ void loop() {
 
   currentLEDMillis = millis();
 
-    if ((LECUServoPwrSwitchState == 'L') || (LECUServoPwrSwitchState == 'H')) {
-        if ((currentLEDMillis - lastLEDMillis) >= 1000) {
-            lastLEDMillis = currentLEDMillis;
-            LEDState = (LEDState == LOW) ? HIGH : LOW;
-            digitalWrite(indicatorLEDPin, LEDState);
-        }
-    } else {
-        digitalWrite(indicatorLEDPin, LOW);
+  if ( ((LECUServoPwrSwitchState == 'L') || (LECUServoPwrSwitchState == 'H')) ) {
+    if ((currentLEDMillis - lastLEDMillis) >= 1000) {
+      lastLEDMillis = currentLEDMillis;
+      LEDState = (LEDState == LOW) ? HIGH : LOW;
+      digitalWrite(indicatorLEDPin, LEDState);
     }
+  } else {
+    digitalWrite(indicatorLEDPin, LOW);
+  }
   
 }
 
@@ -150,25 +150,28 @@ void process_ctrl_packet() {
 
 void send_sensor_data() {
 
-  /*
-  if ((Serial1.availableForWrite() < 64)) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    return;
-  }
-  */
+  uint8_t packet[42];
 
-  Serial1.print('<');
-  Serial1.print(AI0Reading);
-  Serial1.print(AI1Reading);
-  Serial1.print(AI2Reading);
-  Serial1.print(AI3Reading);
-  Serial1.print(AI4Reading);
-  Serial1.print(AI5Reading);
-  Serial1.print(AI6Reading);
-  Serial1.print(TC1Reading);
-  Serial1.print(TC2Reading);
-  Serial1.print(TC3Reading);
-  Serial1.print('>');
+  packet[0] = '<';
+
+  uint32_t values[10] = {
+    AI0Reading,
+    AI1Reading,
+    AI2Reading,
+    AI3Reading,
+    AI4Reading,
+    AI5Reading,
+    AI6Reading,
+    TC1Reading,
+    TC2Reading,
+    TC3Reading
+  };
+
+  memcpy(&packet[1], values, sizeof(values));
+
+  packet[41] = '>';
+
+  Serial1.write(packet, sizeof(packet));
 }
 
 bool send_sensor_data_ISR(struct repeating_timer *t) {
