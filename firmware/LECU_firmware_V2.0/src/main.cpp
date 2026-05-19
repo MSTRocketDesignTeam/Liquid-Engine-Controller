@@ -3,12 +3,21 @@
 #include <control.h>
 #include <RPi_Pico_TimerInterrupt.h>
 #include <DAQ.h>
+#include <Adafruit_SPIFlash.h>
+#include <SdFat.h>
+#define FLASH_CS   17
+#define FLASH_SCK  18
+#define FLASH_MISO 16
+#define FLASH_MOSI 19
+#define flashSPI SPI
+
 
 // Pin Assignments
 int indicatorLEDPin = 22;
 int fuelMainValvePWMPin   = 26;
 int oxMainValvePWMPin     = 27;
 int LECUServoPwrSwitchPin = 28;
+int fanCtrlPin = 14;
 Servo fuelValve;
 Servo oxValve;
 
@@ -35,6 +44,32 @@ volatile uint32_t TC1Reading;
 volatile uint32_t TC2Reading;
 volatile uint32_t TC3Reading;
 
+// ------------------- Flash IC ------------------------
+Adafruit_FlashTransport_SPI flashTransport(
+    FLASH_CS,
+    flashSPI
+);
+Adafruit_SPIFlash flash(&flashTransport);
+
+typedef struct __attribute__((packed)) {
+
+    uint32_t timestamp_ms;
+    uint32_t AI0;
+    uint32_t AI1;
+    uint32_t AI2;
+    uint32_t AI3;
+    uint32_t AI4;
+    uint32_t AI5;
+    uint32_t AI6;
+    uint32_t TC1;
+    uint32_t TC2;
+    uint32_t TC3;
+
+} SensorLogRecord;
+
+uint32_t flashWriteAddress = 0;
+
+
 // -------------------- Serial RX --------------------
 const byte NUM_CHARS = 4;
 char receivedChars[NUM_CHARS];
@@ -42,13 +77,16 @@ bool newData = false;
 
 // -------------------- Timer --------------------
 RPI_PICO_Timer ITimer0(0);
-const int SENSOR_DATA_TX_INTERVAL = 1000;   // in ms
+const int SENSOR_DATA_TX_INTERVAL = 200;   // in ms
 volatile bool sendDataFlag = false;
+volatile bool logDataFlag = false;
+volatile uint32_t tick = 0;
 
 // -------------------- Function Declarations --------------------
 void recv_with_start_end_markers();
 void process_ctrl_packet();
 void send_sensor_data();
+void log_sensor_data_to_flash();
 bool send_sensor_data_ISR(struct repeating_timer *t);
 
 
@@ -58,12 +96,29 @@ void setup() {
   pinMode(LECUServoPwrSwitchPin, OUTPUT);
   pinMode(indicatorLEDPin, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(fanCtrlPin, OUTPUT);
+  digitalWrite(fanCtrlPin, HIGH);
 
   fuelValve.attach(fuelMainValvePWMPin, 500, 2500);
   oxValve.attach(oxMainValvePWMPin, 500, 2500);
 
   init_DAQ();
   delay(1500);
+
+  flashSPI.setRX(FLASH_MISO);
+  flashSPI.setTX(FLASH_MOSI);
+  flashSPI.setSCK(FLASH_SCK);
+  flashSPI.begin();
+
+  SPI.begin();
+
+  if (!flash.begin()) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    while (1) {
+      delay(100);
+    }
+  }
+  
 
   // Timer ISR every 10 ms
   ITimer0.attachInterruptInterval(SENSOR_DATA_TX_INTERVAL*1000, send_sensor_data_ISR);
@@ -80,6 +135,11 @@ void loop() {
     sendDataFlag = false;
     read_DAQ_module(AI0Reading, AI1Reading, AI2Reading, AI3Reading, AI4Reading, AI5Reading, AI6Reading, TC1Reading, TC2Reading, TC3Reading);
     send_sensor_data();
+  }
+
+  if (logDataFlag) {
+    logDataFlag = false;
+    log_sensor_data_to_flash();
   }
 
   currentLEDMillis = millis();
@@ -174,7 +234,41 @@ void send_sensor_data() {
   Serial1.write(packet, sizeof(packet));
 }
 
+void log_sensor_data_to_flash() {
+
+    SensorLogRecord record;
+
+    record.timestamp_ms = tick;
+    record.AI0 = AI0Reading;
+    record.AI1 = AI1Reading;
+    record.AI2 = AI2Reading;
+    record.AI3 = AI3Reading;
+    record.AI4 = AI4Reading;
+    record.AI5 = AI5Reading;
+    record.AI6 = AI6Reading;
+    record.TC1 = TC1Reading;
+    record.TC2 = TC2Reading;
+    record.TC3 = TC3Reading;
+
+    // Erase 4KB sector when entering new sector
+    if ((flashWriteAddress % 4096) == 0) {
+      flash.eraseSector(flashWriteAddress);
+    }
+
+    flash.writeBuffer(
+        flashWriteAddress,
+        (uint8_t*)&record,
+        sizeof(record)
+    );
+
+    flashWriteAddress += sizeof(record);
+}
+
 bool send_sensor_data_ISR(struct repeating_timer *t) {
+  tick++;
   sendDataFlag = true;  // Set flag only
+  if (tick % 5 == 0) {
+    logDataFlag = true;
+  }
   return true;
 }

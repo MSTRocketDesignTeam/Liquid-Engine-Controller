@@ -16,7 +16,7 @@ int TC3_CS_PIN     = 12;   // N2O TC
 SPISettings tcSPISettings(4000000, MSBFIRST, SPI_MODE0);
 
 // MCP3564 ADC Settings
-SPISettings adcSPISettings(12000000, MSBFIRST, SPI_MODE0);         // SPI Bus is 4MHz, MSb-First, Mode 0,0.  
+SPISettings adcSPISettings(10000000, MSBFIRST, SPI_MODE0);         // SPI Bus is 4MHz, MSb-First, Mode 0,0.  
 
 
 // -------------------------
@@ -27,13 +27,14 @@ uint32_t read_MAX31855(int csPin) {
     digitalWrite(csPin, LOW);
 
     uint32_t raw = 0;
-    raw |= ((uint32_t)SPI1.transfer(0x00) << 24);
-    raw |= ((uint32_t)SPI1.transfer(0x00) << 16);
-    raw |= ((uint32_t)SPI1.transfer(0x00) << 8);
-    raw |= ((uint32_t)SPI1.transfer(0x00));
+    uint8_t rawH = SPI1.transfer(0x00);
+    uint8_t rawL = SPI1.transfer(0x00);
 
     digitalWrite(csPin, HIGH);
     SPI1.endTransaction();
+
+    raw = ((uint32_t)rawH << 8) | rawL;
+    raw = raw >> 2;
 
     return raw;
 }
