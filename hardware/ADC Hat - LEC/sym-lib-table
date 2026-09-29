@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADS1256IDBR")(type "KiCad")(uri "${KIPRJMOD}/components/ADS1256IDBR/ADS1256IDBR.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-100-S-20A-TR")(type "KiCad")(uri "${KIPRJMOD}/components/ECS-100-S-20A-TR/ECS-100-S-20A-TR.kicad_sym")(options "")(descr ""))
+)
