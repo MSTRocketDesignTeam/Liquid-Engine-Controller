@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECS-100-S-20A-TR")(type "KiCad")(uri "${KIPRJMOD}/components/ECS-100-S-20A-TR")(options "")(descr ""))
+)
