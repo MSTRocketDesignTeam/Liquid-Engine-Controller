@@ -1,4 +1,5 @@
-STM32F04: https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F042K6T6/4815294
+STM32F04:
+https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F042K6T6/4815294
 
 3V3 LDO: 
 https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bIAugL5A
