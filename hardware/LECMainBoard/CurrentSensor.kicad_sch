@@ -1,0 +1,73 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ed1da790-4a02-4c3d-946b-7e354a4430bf")
+	(paper "A4")
+	(lib_symbols)
+	(text "There are no KiCad files for\nthe current sensor :/. So i \njust made this to take the \nplace of the symbol"
+		(exclude_from_sim no)
+		(at 41.91 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4e3680d-d8eb-46cf-8870-46144a445a77")
+	)
+	(hierarchical_label "IP+"
+		(shape input)
+		(at 22.86 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7203ad1a-1d9e-4a50-b14e-c6ff7687fc9f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 62.23 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76659d18-cab5-443c-a75f-e82c8a656a3c")
+	)
+	(hierarchical_label "IP-"
+		(shape input)
+		(at 22.86 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97ec664a-23fb-4ec1-92ed-fa8f6ad44e01")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 62.23 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0040fec-29d1-4b14-bb60-a38f1fb06805")
+	)
+	(hierarchical_label "VOUT"
+		(shape input)
+		(at 62.23 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a03bf634-b54d-429f-b45f-52fd25659a45")
+	)
+)

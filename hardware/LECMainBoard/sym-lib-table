@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "STM32F04") (type "KiCad") (uri "${KIPRJMOD}/Libraries/STM32F042K6T6.kicad_sym") (options "") (descr ""))
+	(lib (name "ZephyrLib") (type "KiCad") (uri "${KIPRJMOD}/Libraries") (options "") (descr ""))
+)

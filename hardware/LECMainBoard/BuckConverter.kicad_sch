@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fad4d873-426a-40f5-82ca-3d1afeb951c6")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "VIN (11.1V)"
+		(shape input)
+		(at 34.29 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "962edb16-a7d2-43af-982d-87a45099128c")
+	)
+	(hierarchical_label "VOUT (5V)"
+		(shape input)
+		(at 266.7 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b82de446-fad7-49c3-84aa-81640653985e")
+	)
+)
